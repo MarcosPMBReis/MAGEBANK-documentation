@@ -9,11 +9,11 @@ Este documento descreve a estrutura recomendada de branches e as boas práticas 
   - **Descrição:** Contém o código estável e pronto para produção.
 
 - **Branches de Desenvolvimento**
-  - **Nome:** `dev`
+  - **Nome:** `develop`
   - **Descrição:** Usada para integrar novas funcionalidades e melhorias em desenvolvimento.
 
 - **Branches de Funcionalidade**
-  - **Nome:** `fun/nome-da-fun`
+  - **Nome:** `feature/nome-da-feature`
   - **Descrição:** Criadas para o desenvolvimento de novas funcionalidades específicas. Cada branch representa uma funcionalidade isolada.
 
 - **Branches de Correção de Bugs**
@@ -21,11 +21,11 @@ Este documento descreve a estrutura recomendada de branches e as boas práticas 
   - **Descrição:** Utilizadas para corrigir bugs e problemas identificados no código. Cada branch aborda um problema específico.
 
 - **Branches de Hotfix**
-  - **Nome:** `quick/nome-do-quick`
+  - **Nome:** `hotfix/nome-do-hotfix`
   - **Descrição:** Usadas para corrigir problemas críticos em produção rapidamente. Estas são correções urgentes.
 
 - **Branches de Release**
-  - **Nome:** `prep/nome-da-release`
+  - **Nome:** `release/nome-da-release`
   - **Descrição:** Criadas para preparar novas versões do software. Serve para testes finais e ajustes antes de liberar a versão para produção.
 
 ## Boas Práticas com Branches
